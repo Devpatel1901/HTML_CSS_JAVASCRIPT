@@ -1,0 +1,38 @@
+body{
+    overflow: hidden;
+    background-image: linear-gradient(green , yellow);
+}
+
+.header{
+    text-align: center;
+    font-size: 41px;
+    position: absolute;
+    top: 64px;
+    left: 430px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.info{
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    height: 70vh;
+    margin: 18vh 30vw;
+    width: 40vw;
+    background-color: white;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
